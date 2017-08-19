@@ -1,7 +1,20 @@
 {
   "name": "gulp-font-blast",
-  "version": "0.1.0",
   "description": "Convert a svg font file to svg symbol definition(s)",
+  "version": "0.1.0",
+  "author": "Yury Buldakov (https://github.com/yukoff)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yukoff/gulp-font-blast/issues"
+  },
+  "homepage": "https://github.com/yukoff/gulp-font-blast#readme",
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "font",
+    "blast",
+    "font-blast"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,20 +28,10 @@
     "through2": "^2.0.3",
     "vinyl": "^2.1.0"
   },
-  "keywords": [
-    "gulpplugin",
-    "gulp",
-    "font-blast"
-  ],
-  "author": "Yury Buldakov",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yukoff/gulp-font-blast/issues"
-  },
-  "homepage": "https://github.com/yukoff/gulp-font-blast#readme",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
     "gulp-jshint": "^2.0.4",
     "gulp-nodeunit": "^0.1.0",
     "jshint": "^2.9.5"
