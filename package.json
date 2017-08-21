@@ -13,7 +13,10 @@
     "gulp",
     "font",
     "blast",
-    "font-blast"
+    "font-blast",
+    "svg",
+    "icon",
+    "extract"
   ],
   "main": "index.js",
   "scripts": {
@@ -24,12 +27,13 @@
     "url": "git+https://github.com/yukoff/gulp-font-blast.git"
   },
   "dependencies": {
-    "font-blast": "^0.6.1",
+    "svg2ttf": "^4.1.0",
+    "svgo": "^0.7.2",
     "through2": "^2.0.3",
-    "vinyl": "^2.1.0"
+    "xmldom": "^0.1.27"
   },
   "devDependencies": {
-    "del": "^3.0.0",
+    "eslint": "^4.5.0",
     "gulp": "^3.9.1",
     "gulp-eslint": "^4.0.0",
     "gulp-jshint": "^2.0.4",
